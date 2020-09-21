@@ -25,6 +25,8 @@ public class App
     	int num2 = scanner.nextInt();
     	
     	add2Numbers(num1, num2);
+    	multiply2Numbers(num1, num2);
+    	subtractionOf2Numbers(num1, num2);
     	
     	scanner.close();
     }
@@ -38,10 +40,16 @@ public class App
 
 	
     private static void multiply2Numbers(int num1, int num2) {
-    	long prod = num1 + num2;
+    	long prod = num1 * num2;
     	
     	logger.info("The product of numbers "+num1+" and "+num2+" = "+prod);
     }
 
+    
+    private static void subtractionOf2Numbers(int num1, int num2) {
+    	long sub = num1 - num2;
+    	
+    	logger.info("The subtraction of numbers "+num1+" and "+num2+" = "+sub);
+    }
     
 }
