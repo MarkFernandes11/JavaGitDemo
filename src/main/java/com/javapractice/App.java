@@ -57,6 +57,6 @@ public class App
     private static void modulusOf2Numbers(int num1, int num2) {
     	long modulus = num1 % num2;
     	
-    	logger.info("The modulus of numbers "+num1+" and "+num2+" = "+modulus);
+    	logger.info("The remainder of numbers "+num1+" and "+num2+" = "+modulus);
     }
 }
