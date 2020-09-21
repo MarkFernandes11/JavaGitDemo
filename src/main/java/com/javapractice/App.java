@@ -35,7 +35,13 @@ public class App
     	
     	logger.info("The sum of numbers "+num1+" and "+num2+" = "+sum);
     }
-    
-    
+
+	
+    private static void multiply2Numbers(int num1, int num2) {
+    	long prod = num1 + num2;
+    	
+    	logger.info("The product of numbers "+num1+" and "+num2+" = "+prod);
+    }
+
     
 }
