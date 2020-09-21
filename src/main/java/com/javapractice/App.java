@@ -1,0 +1,41 @@
+package com.javapractice;
+
+import java.util.Scanner;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	private static Logger logger = LogManager.getLogger(App.class);
+	
+    public static void main( String[] args )
+    {
+    	Scanner scanner = new Scanner(System.in);
+    	
+    	System.out.println("Enter number 1");
+    	int num1 = scanner.nextInt();
+    	
+    	System.out.println("Enter number 2");
+    	int num2 = scanner.nextInt();
+    	
+    	add2Numbers(num1, num2);
+    	
+    	scanner.close();
+    }
+    
+    
+    private static void add2Numbers(int num1, int num2) {
+    	long sum = num1 + num2;
+    	
+    	logger.info("The sum of numbers "+num1+" and "+num2+" = "+sum);
+    }
+    
+    
+    
+}

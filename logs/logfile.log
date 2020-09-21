@@ -1,0 +1,8 @@
+INFO  | 2020-09-19 10:05:42 | [main] javapractice.App (App.java:18) - Hello World! from info
+WARN  | 2020-09-19 10:05:42 | [main] javapractice.App (App.java:20) - Hello World! from warn
+ERROR | 2020-09-19 10:05:42 | [main] javapractice.App (App.java:21) - Hello World! from error
+FATAL | 2020-09-19 10:05:42 | [main] javapractice.App (App.java:22) - Hello World! from fatal
+INFO  | 2020-09-19 10:05:42 | [main] javapractice.App (App.java:23) - Appending string :: Some text
+INFO  | 2020-09-21 09:10:05 | [main] javapractice.App (App.java:27) - The sum of numbers 1 and 2 = 3
+INFO  | 2020-09-21 09:15:25 | [main] javapractice.App (App.java:36) - The sum of numbers 15 and 25 = 40
+INFO  | 2020-09-21 09:18:49 | [main] javapractice.App (App.java:36) - The sum of numbers 54646456 and 1221 = 54647677
