@@ -24,9 +24,10 @@ public class App
     	System.out.println("Enter number 2");
     	int num2 = scanner.nextInt();
     	
-    	add2Numbers(num1, num2);
-    	multiply2Numbers(num1, num2);
-    	subtractionOf2Numbers(num1, num2);
+//    	add2Numbers(num1, num2);
+//    	multiply2Numbers(num1, num2);
+//    	subtractionOf2Numbers(num1, num2);
+    	modulusOf2Numbers(num1, num2);
     	
     	scanner.close();
     }
@@ -52,4 +53,10 @@ public class App
     	logger.info("The subtraction of numbers "+num1+" and "+num2+" = "+sub);
     }
     
+    
+    private static void modulusOf2Numbers(int num1, int num2) {
+    	long modulus = num1 % num2;
+    	
+    	logger.info("The modulus of numbers "+num1+" and "+num2+" = "+modulus);
+    }
 }
