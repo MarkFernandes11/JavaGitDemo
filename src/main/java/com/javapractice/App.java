@@ -59,4 +59,13 @@ public class App
     	
     	logger.info("The modulus of numbers "+num1+" and "+num2+" = "+modulus);
     }
+    
+    
+    private static void divisionOf2Numbers(int num1, int num2) {
+    	long division = num1 / num2;
+    	
+    	logger.info("The division of numbers "+num1+" and "+num2+" = "+division);
+    }
+    
+    
 }
