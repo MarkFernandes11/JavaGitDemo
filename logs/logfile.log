@@ -13,3 +13,7 @@ INFO  | 2020-09-21 10:02:00 | [main] javapractice.App (App.java:38) - The sum of
 INFO  | 2020-09-21 10:02:00 | [main] javapractice.App (App.java:45) - The product of numbers 56 and 41 = 2296
 INFO  | 2020-09-21 10:02:00 | [main] javapractice.App (App.java:52) - The subtraction of numbers 56 and 41 = 15
 INFO  | 2020-09-21 10:12:47 | [main] javapractice.App (App.java:60) - The modulus of numbers 56 and 9 = 2
+INFO  | 2020-09-22 09:26:01 | [main] javapractice.App (App.java:76) - The sum of numbers 26.23 and 43.77 = 70.0
+INFO  | 2020-09-22 09:26:47 | [main] javapractice.App (App.java:98) - The remainder of numbers 56.0 and 21.0 = 14.0
+INFO  | 2020-09-22 09:27:09 | [main] javapractice.App (App.java:90) - The subtraction of numbers 546.0 and 2145.0 = -1599.0
+INFO  | 2020-09-22 10:00:08 | [main] javapractice.App (App.java:76) - The sum of numbers 546.0 and 213.0 = 759.0
